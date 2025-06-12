@@ -1,0 +1,10 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "codebase-migration-assistant"
+version = "1.0.0"
+description = "Codebase Migration Assistant"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "Proprietary"}
