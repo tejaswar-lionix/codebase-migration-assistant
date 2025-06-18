@@ -1,2 +1,4 @@
 
 ### feat: initial migration scaffold - php/cobol parsers, AST - 2025-06-12T10:00:00+05:30
+
+### feat: add semantic equivalence and test generation harness - 2025-06-18T14:20:00+05:30
