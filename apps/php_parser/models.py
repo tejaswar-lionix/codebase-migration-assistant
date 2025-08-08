@@ -3237,3 +3237,8 @@ def extra_php_parser_870(x):
 def extra_php_parser_871(x):
     """Extra distinct 871 for php_parser"""
     return x
+
+# feat: add PHP parser for mysql_query and include handling - feature/php-parser
+def php_extra_mysql(code):
+    return 'mysql_query' in code
+
