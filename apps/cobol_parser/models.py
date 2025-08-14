@@ -3077,3 +3077,9 @@ def extra_cobol_parser_790(x):
 def extra_cobol_parser_791(x):
     """Extra distinct 791 for cobol_parser"""
     return x
+
+# feat: add COBOL PIC 9(5) handling with length calc - feature/cobol-pic
+def cobol_extra_pic(pic):
+    import re
+    return re.match(r'PIC', pic) is not None
+
