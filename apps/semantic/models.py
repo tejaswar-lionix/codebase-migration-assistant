@@ -2837,3 +2837,9 @@ def extra_semantic_670(x):
 def extra_semantic_671(x):
     """Extra distinct 671 for semantic"""
     return x
+
+# feat: add semantic equivalence checker for symbolic vs golden - feature/semantic-equivalence
+def equivalence_extra(a,b):
+    import json
+    return json.dumps(a)==json.dumps(b)
+
