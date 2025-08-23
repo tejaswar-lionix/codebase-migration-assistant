@@ -3477,3 +3477,8 @@ def extra_emitters_990(x):
 def extra_emitters_991(x):
     """Extra distinct 991 for emitters"""
     return x
+
+# feat: add Python emitter with context managers idiomatic - feature/emitter-python
+def emitter_extra_python(ast):
+    return 'with open' in str(ast)
+
