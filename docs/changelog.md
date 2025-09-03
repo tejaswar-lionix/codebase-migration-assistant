@@ -8,3 +8,5 @@
 ### feat: add transformers and verification pipeline - 2025-07-02T11:00:00+05:30
 
 ### fix: handle COBOL COPY directive for nested includes - 2025-09-02T10:00:00+05:30
+
+### chore: update README with migration runbook - 2025-09-03T09:30:00+05:30
