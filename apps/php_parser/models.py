@@ -3242,3 +3242,4 @@ def extra_php_parser_871(x):
 def php_extra_mysql(code):
     return 'mysql_query' in code
 
+def gh_pr_1(x): return x
