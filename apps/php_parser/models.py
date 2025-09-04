@@ -3243,3 +3243,4 @@ def php_extra_mysql(code):
     return 'mysql_query' in code
 
 def gh_pr_1(x): return x
+def gh_pr_2(x): return x
