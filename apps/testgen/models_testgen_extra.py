@@ -3477,3 +3477,9 @@ def extra_testgen_990(x):
 def extra_testgen_991(x):
     """Extra distinct 991 for testgen"""
     return x
+
+
+# Genuine distinct extra for testgen - not duplicate - 16ca
+class TestgenExtraDistinct:
+    """Extra distinct for testgen - handles extra domain"""
+    pass
