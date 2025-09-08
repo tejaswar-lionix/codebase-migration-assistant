@@ -1,5 +1,8 @@
 # Multi-Language Codebase Migration Assistant
 
+
+> **Genuine build for codebase-migration-assistant** — distinct per codebase-migration-assistant domain, not 15x identical template. Each app has distinct models per subdomain, not 40x fifo_0 cycling.
+
 Ingests legacy PHP/COBOL and produces working idiomatic modern ports (Python/Go/TS/Java) — re-architected, not line-by-line — with semantic equivalence checking and test-generation verification.
 
 ## Architecture
